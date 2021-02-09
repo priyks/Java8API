@@ -22,7 +22,7 @@ public class FunctionalInterfaceConcept {
 
 		int len = fun.apply("Priyanka");
 		System.out.println(len);
-		//System.out.println(fun.apply("kulkarni"));
+	
 
 		Function<Integer, Integer> fun1 = x -> x * 3;
 		int result = fun.andThen(fun1).apply("courageous");
